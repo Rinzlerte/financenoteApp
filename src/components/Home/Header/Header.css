@@ -1,0 +1,31 @@
+header{
+  max-width: 1200px;
+  height: 13vh;
+  margin: auto;
+  font-weight: 250;
+  border-bottom: 2px solid white;
+}
+.head-menu{
+  width: 100%;
+  margin: auto;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-logo{
+  display: block;
+  width: 265px;
+  height: 48px;
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 34px;
+}
+
+@media screen and (max-width: 1024px){}
+@media screen and (max-width: 960px){}
+@media screen and (max-width: 768px){
+  .head-logo{
+    font-size: 28px;
+  }
+};

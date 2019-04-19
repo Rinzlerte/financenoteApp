@@ -1,0 +1,61 @@
+.mybalance {
+  max-width: 1200px;
+  height: 20vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+.balanse-info{
+  width: 45%;
+  height: 45px;
+  font-size: 26px;
+  font-weight: 500;
+  padding-left: 20px;
+  background-color: white;
+}
+.balance-navigation{
+  width: 55%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.remove-btn{
+  width: 60px;
+  height: 60px;
+  background-image: url(./balanceImg/substract.svg);
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.add-btn  {
+  width: 60px;
+  height: 60px;
+  background-image: url(./balanceImg/add.svg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px){
+  .balanse-info{
+    font-size: 20px;
+  }
+
+}
+
+
+@media screen and (max-width: 768px){
+  .mybalance{
+  flex-direction: column;
+  justify-content: space-around;
+  }
+  .balanse-info, .balance-navigation{
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px){
+}

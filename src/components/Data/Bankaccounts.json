@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Privatbank",
+        "card": "4148-5555-8795",
+        "ammount": 21034
+    },
+    {
+        "name": "Alfa Bank",
+        "card": "4142-0605-4142",
+        "ammount": -870
+    },
+    {
+        "name": "A-Bank",
+        "card": "4149-5621-7881",
+        "ammount": 724
+    }
+]

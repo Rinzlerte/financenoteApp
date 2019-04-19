@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App{
+  background: linear-gradient(to right, #e91e63, #3f51b5);
+}
+
+.goback-btn{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  background-image: url(./img/back\ \(4\).svg);
+  background-size: cover;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.head-info{
+  color:#ffff;
+  display: block;
+  height: 50px;
+  margin-right: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 28px;
+  padding-left: 5px;
+  text-align: center;
+  background-color: #687492;
+}
+
+.addbtn{
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  box-shadow: 1.5px;
+  font-size: 24px;
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 5px;
+  color: rgb(91, 12, 196);
+  background-color:#ffff;
+}
+
+.btn {
+  width: 70px;
+  height: 70px;
+  margin: 2px;
+  background:#E7ECED;
+  border: 1px;
+  box-shadow: 1px;
+  font-size: 26px;
+  cursor: pointer;
+  color: rgb(91, 12, 196);
+}
+
+.display{
+  width: 90%;
+  height: 70px;
+  text-align: right;
+  font-size: 30px;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+}
+
+.calculation-form{
+  width: 310px;
+  height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-line{
+  width: 90%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification{
+  display: block;
+  height: 30px;
+  width: 60%;
+  color: white;
+}

@@ -1,0 +1,71 @@
+.expenses-conteiner{
+    width: 100%;
+    height: 100vh;
+    
+}
+.expenses-head{
+    max-width: 1200px;
+    height: 13vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expenses-list-box{
+    max-width: 960px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+
+}
+.expenses-list{
+    display: block;
+    width: 100%;
+}
+
+.expenses-list-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    list-style: none;
+    background:#E7ECED;
+    margin: 6px;
+    border-radius: 10px;
+}
+
+.expenses-comment, .expenses-amount{
+    font-size: 1.2em;
+    display: block;
+    width: 40%;
+    height: 60%;
+    text-align: center;
+}
+
+.expenses-del-btn{
+    width: 15%;
+    height: 50%;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    background: linear-gradient(to right, #e91e63, #3f51b5);
+}
+
+.add-newexpenses-btn{
+    width: 55px;
+    height: 55px;
+    background-image: url(../../../src/components/Home/Balance/balanceImg/add.svg);
+    margin-right: 25px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .expenses-list-item{
+        font-size: 12px;
+    }
+}
+
