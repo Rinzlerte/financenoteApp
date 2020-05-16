@@ -8,7 +8,6 @@ import Main from './Main/Main';
 
 
 const Home = () => (
-
     <div className="home-conteiner">
         <Header/>
         <Main />
